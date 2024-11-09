@@ -11,13 +11,10 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[8.0].define(version: 2024_11_08_201036) do
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "pg_catalog.plpgsql"
-
   create_table "users", force: :cascade do |t|
     t.boolean "active", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["active"], name: "index_users_on_active", where: "(active IS TRUE)"
+    t.index ["active"], name: "index_users_on_active", where: "active IS TRUE /* important note */ /*application='PartialIndexBug',test='tag'*/"
   end
 end
