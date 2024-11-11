@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was created to showcase a real life example of https://github.com/rails/rails/issues/53565, which has now been fixed by https://github.com/rails/rails/pull/53570.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Archiving this repo, but keeping it to keep the links working.
